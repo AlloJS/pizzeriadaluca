@@ -1,73 +1,73 @@
-    body {background-color: white;
-        font-family: 'B612';
-        font-size: 1.2em;
-    }
+body {
+    background-color: rgb(238,238,238);
+    font-family: 'Open Sans Condensed';
+    font-size: 1.2em;
+    margin: 0;
+}
 
-    /* Add a black background color to the top navigation */
-    .header{
-        height: 10em;
-        background-color: blue;
-    }
+ul {
+    padding: 0em 3em 0em 3em;
+    margin: 0.5em 0em 0em 0em;
+}
 
-    .topul{
-        margin-top: 2em;
-    }
+.header {
+    height: 5em;
+    background-color: white;
+}
 
-    .topnav {
-        background-color: rgb(209, 195, 195);
-        overflow: hidden;
-        text-align: center;
-        height: 7em;
-        
-    }
-    
-    /* Style the links inside the navigation bar */
-    .topnav a {
-        color: black;
-        text-align: center;
-        padding: 1em;
-        text-decoration: none;
-        font-size: 1.2em;
-        margin: 3em;
-        width: auto;
-        height: auto;
-    }
-    
-    /* Change the color of links on hover */
-    .topnav a:hover {
-        color: pink;
-        background-color: red;
-    }
-    
-    /* Add a color to the active/current link */
-    .topnav a.active {
-        background-color: #4CAF50;
-        color: white;
-    }
-        
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    text-align: center;
+    height: auto;
+}
 
-    .content{
-        text-align: center;
-        background-color: red;
-        height: 25em;
-    }
+.topnav a {
+    color: black;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 4em;
+    width: auto;
+    height: auto;
+    font-weight: bold;
+}
 
-    .footer{
-        height: 10em;
-    }
+.topnav a:hover {
+    color: grey;
+}
 
-    .footerLeft{
-        width: 50%;
-        float: left;
-    }
+.content {
+    text-align: center;
+}
 
-    .footerRight{
-        width: 50%;
-        float: right;
-    }
+.footer {
+    background-color: white;
+    height: 4em;
+    margin-bottom: 0;
+}
 
-    .topicon{
-        margin-left: auto;
-        margin-right: auto;
-        width: 3em;
-    }
+.contentImage {
+    margin-top: 2em;
+}
+
+.midImage1 {
+    margin-top: 1em;
+    width: 20em;
+    margin-left: 26em;
+}
+
+.topicon {
+    margin-left: auto;
+    margin-right: auto;
+    width: 3em;
+}
+
+.footerLeft{
+    float: left;
+}
+
+.footerRight{
+    float: right;
+}

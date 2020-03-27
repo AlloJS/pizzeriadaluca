@@ -239,8 +239,8 @@ header .header-ordina {
 
 }
 
-.vertical-center{
-    
+.vertical-center {
+
     display: table-cell;
     vertical-align: middle;
 }
@@ -344,9 +344,12 @@ header .header-ordina {
         height: 470px;
 
     }
+
+    .index-banner h1 {
+        margin: 0 10px 130px 0;
+
+    }
 }
-
-
 
 /*FOOTER*/
 
@@ -361,7 +364,7 @@ footer {
 footer ul {
     width: fit-content;
     float: left;
-    padding-left: 20px;
+    padding-left: 0px;
 }
 
 footer ul li {
@@ -374,13 +377,13 @@ footer ul li a {
     font-size: 22px;
     color: #fff;
     line-height: 55px;
-    font-weight: 300;
+    font-weight: 100;
 
 }
 
 footer p {
     font-family: Catamaran;
-    font-size: 20px;
+    font-size: 16px;
     color: #fff;
     width: 100%;
     margin-top: 190px;
@@ -389,8 +392,10 @@ footer p {
 }
 
 .footer-sm {
-    width: 50px;
+    width: 40px;
     float: right;
+    line-height: 26px;
+    margin-top: 8px;
 }
 
 .footer-sm img {
@@ -413,7 +418,7 @@ footer p {
 
 .listino-banner h2 {
     font-family: Catamaran;
-    font-size: 40px;
+    font-size: 30px;
     color: #fff;
     text-align: center;
     font-weight: 900;
@@ -421,6 +426,7 @@ footer p {
     margin-bottom: 10px;
     text-transform: uppercase;
 }
+
 
 .vertical-center {
 
@@ -458,6 +464,10 @@ footer p {
     margin: 10px auto 10px;
 }
 
+.download-button:hover {
+    color: #424242;
+}
+
 .prenota-button {
     display: block;
     border: 1px solid #111;
@@ -470,4 +480,82 @@ footer p {
     padding: 5px 5px;
     width: calc(80% - 100px);
     margin: 10px auto 10px;
+}
+
+/*CONTATTI*/
+
+.contatti-box-posizione {
+    background-color: #f3f3f3;
+    width: calc(100%-16px);
+    margin: 10px 8px;
+    padding: 10px;
+}
+
+.contatti-box-posizione h2 {
+    font-family: Catamaran;
+    font-size: 26px;
+    color: #111;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.contatti-box-posizione p {
+    font-family: Raleway;
+    font-size: 16px;
+    color: #111;
+    text-align: center;
+    font-weight: 800;
+    line-height: 24px;
+
+}
+
+.contatti-box-posizione h3 {
+    font-family: Catamaran;
+    font-size: 26px;
+    color: #111;
+    text-align: center;
+    font-weight: 800;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+.pw-box {
+    background-color: #f3f3f3;
+    width: calc(100%-16px);
+    margin: 10px 8px;
+    padding: 10px;
+}
+
+.pw-box h3 {
+    font-family: Catamaran;
+    font-size: 24px;
+    color: #111;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 10px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.pw-box h4 {
+    font-family: Catamaran;
+    font-size: 20px;
+    color: #111;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 10px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+
+.pw-box img {
+    width: 80px;
+}
+
+.image-container {
+    text-align: center;
+    margin: 10px;
 }

@@ -559,3 +559,103 @@ footer p {
     text-align: center;
     margin: 10px;
 }
+
+/*PRENOTA*/
+
+.prenota-form-section {
+    margin: 8px 10px 0;
+    width: calc(100% - 30px);
+    background-color: #f3f3f3;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.prenota-form-section h4 {
+    font-family: Catamaran;
+    font-size: 16px;
+    color: #111;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+
+.prenota-form-section h3 {
+    font-family: Catamaran;
+    font-size: 16px;
+    color: #111;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+
+
+#select-pizze {
+    width: calc(100% - 150px);
+    margin-left: 75px;
+    font-family: Raleway;
+    font-size: 15px;
+    color: #111;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+}
+
+#select-orario {
+    width: calc(100% - 150px);
+    margin-left: 75px;
+    font-family: Raleway;
+    font-size: 15px;
+    color: #111;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#select-qt {
+    width: calc(100% - 270px);
+    margin-left: 135px;
+    font-family: Raleway;
+    font-size: 15px;
+    color: #111;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+form {
+    width: calc(100% -30px);
+    margin: 15px;
+}
+
+form label {
+    display: block;
+    font-family: Raleway;
+    font-size: 15px;
+    color: #111;
+    text-align: center;
+}
+
+form input {
+    width: calc(100% - 100px);
+    padding: 5px;
+    margin: 0px 45px 10px 45px;
+}
+
+.submit-button {
+    width: calc(100% - 180px);
+    padding: 5px;
+    margin-left: 90px;
+    margin-top: 20px;
+    font-family: Catamaran;
+    font-size: 16px;
+    color: #111;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 20px;
+    background-color: white;
+    border: 1px solid #111;
+
+}

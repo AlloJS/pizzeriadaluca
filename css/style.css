@@ -328,7 +328,7 @@ header .header-ordina {
     font-size: 28px;
     color: #111;
     text-align: right;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 40px;
     margin-right: 5px;
 
@@ -458,7 +458,7 @@ header .header-ordina {
         width: 80%;
         text-align: left !important;
         font-size: 28px !important;
-        line-height: 30px !important;
+        line-height: 34px !important;
         margin-top: 30px;
         margin-left: 10% !important;
     }
@@ -493,7 +493,7 @@ header .header-ordina {
         width: 80%;
         text-align: left !important;
         font-size: 28px !important;
-        line-height: 30px !important;
+        line-height: 34px !important;
         margin-top: 30px;
         margin-left: 10% !important;
     }
@@ -535,7 +535,7 @@ footer ul li a {
     font-size: 22px;
     color: #fff;
     line-height: 55px;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 footer p {
@@ -576,10 +576,9 @@ footer p {
     .orari-footer a {
         font-family: Catamaran;
         font-size: 20px !important;
-        font-weight: 500 !important;
+        font-weight: 300 !important;
         color: #fff;
         line-height: 35px;
-        font-weight: 100;
     }
 
     .orari-footer li {
@@ -602,12 +601,12 @@ footer p {
 
 .listino-banner h2 {
     font-family: Catamaran;
-    font-size: 30px;
+    font-size: 40px;
     color: #fff;
     text-align: center;
     font-weight: 900;
     text-shadow: 2px 2px 8px #111;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     text-transform: uppercase;
 }
 
@@ -629,7 +628,7 @@ footer p {
     font-size: 18px;
     color: #111;
     text-align: center;
-    font-weight: 400;
+    font-weight: 200;
     line-height: 20px;
     margin: 30px 0 30px 0;
 }
@@ -698,8 +697,8 @@ footer p {
     margin-left: 10% !important;
     margin-top: 50px;
     line-height: 30px !important;
-    margin-bottom: 30px ;
-
+    margin-bottom: 30px;
+    font-weight: 300 !important;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -798,6 +797,11 @@ footer p {
 
 /*CONTATTI*/
 
+.img-mappa {
+    width: 100%;
+
+}
+
 .contatti-box-posizione {
     background-color: #f3f3f3;
     width: calc(100%-16px);
@@ -870,6 +874,11 @@ footer p {
 }
 
 .image-container {
+    text-align: center;
+    margin: 10px;
+}
+
+.image-container1 {
     text-align: center;
     margin: 10px;
 }

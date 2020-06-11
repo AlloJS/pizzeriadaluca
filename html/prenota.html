@@ -21,59 +21,64 @@
         <li><a href="about.html">Chi siamo</a></li>
         <li><a href="contatti.html">Contatti</a></li>
       </ul>
-      <a href="#" class="header-ordina">Ordina</a>
+      <a href="prenota.html" class="header-ordina">Ordina</a>
     </nav>
   </header>
   <main>
-    <section class="prenota-form-section">
-      <form>
-        <h3>Seleziona quante pizze vuoi ordinare:</h3>
-        <select required id="select-qt" name="qt" onchange="magicTrick();">
-          <option value="">*</option>
-          <option value="0">1</option>
-          <option value="1">2</option>
-          <option value="2">3</option>
-          <option value="3">4</option>
-        </select>
-        <div class="selector-wrapper">
-          <h4>Scegli la pizza che desideri:</h4>
-          <div id="multiple-select">
-            <select required id="select-pizze" name="pizze">
-              <option value="">Scegli</option>
-              <option value="margherita">Margherita</option>
-              <option value="marinara">Marinara</option>
-              <option value="diavola">Diavola</option>
-              <option value="capricciosa">Capricciosa</option>
-              <option value="4stagioni">4 Stagioni</option>
-              <option value="tonnocipolla">Tonno e cipolla</option>
-            </select>
+    <div class="wrapperborder">
+      <section class="prenota-form-section">
+        <form class="prenota-form">
+          <h3>Seleziona quante pizze vuoi ordinare:</h3>
+          <select required id="select-qt" name="qt" onchange="magicTrick();">
+            <option value="">*</option>
+            <option value="0">1</option>
+            <option value="1">2</option>
+            <option value="2">3</option>
+            <option value="3">4</option>
+          </select>
+          <div class="selector-wrapper">
+            <h4>Scegli la pizza che desideri:</h4>
+            <div id="multiple-select">
+              <select required id="select-pizze" name="pizze">
+                <option value="">Scegli</option>
+                <option value="margherita">Margherita</option>
+                <option value="marinara">Marinara</option>
+                <option value="diavola">Diavola</option>
+                <option value="capricciosa">Capricciosa</option>
+                <option value="4stagioni">4 Stagioni</option>
+                <option value="tonnocipolla">Tonno e cipolla</option>
+              </select>
+            </div>
+            <div id="multiple-select-repeat"></div>
           </div>
-          <div id="multiple-select-repeat"></div>
-        </div>
-        <h3>Seleziona un orario disponibile per la consegna:</h3>
-        <select required id="select-orario" name="orario">
-          <option value="">Scegli</option>
-          <option value="1830">18.30</option>
-          <option value="1900">19.00</option>
-          <option value="1930">19.30</option>
-          <option value="2000">20.00</option>
-        </select>
-        <h4>Inserisci i tuoi dati personali:</h4>
-        <label for="fname">Nome:</label><br>
-        <input type="text" id="fname" name="fname" required><br>
-        <label for="lname">Cognome:</label><br>
-        <input type="text" id="lname" name="lname" required>
-        <label for="cell">Cellulare:</label><br>
-        <input type="tel" id="cell" name="cell" required>
-        <label for="indirizzo">Indirizzo:</label><br>
-        <input type="text" id="indirizzo" name="indirizzo" required>
-        <label for="cap">CAP:</label><br>
-        <input type="text" id="cap" name="cap" required>
-        <label for="city">Città:</label><br>
-        <input type="text" id="city" name="city" required>
-        <input class="submit-button" type="submit" value="Prenota">
-      </form>
-    </section>
+          <h3>Seleziona un orario disponibile per la consegna:</h3>
+          <select required id="select-orario" name="orario">
+            <option value="">Scegli</option>
+            <option value="1830">18.30</option>
+            <option value="1900">19.00</option>
+            <option value="1930">19.30</option>
+            <option value="2000">20.00</option>
+          </select>
+          <h4>Inserisci i tuoi dati personali:</h4>
+          <label for="fname">Nome:</label><br>
+          <input type="text" id="fname" name="fname" required><br>
+          <label for="lname">Cognome:</label><br>
+          <input type="text" id="lname" name="lname" required>
+          <label for="cell">Cellulare:</label><br>
+          <input type="tel" id="cell" name="cell" required>
+          <label for="indirizzo">Indirizzo:</label><br>
+          <input type="text" id="indirizzo" name="indirizzo" required>
+          <label for="cap">CAP:</label><br>
+          <input type="text" id="cap" name="cap" required>
+          <label for="city">Città:</label><br>
+          <input type="text" id="city" name="city" required>
+          <input class="submit-button" type="submit" value="Prenota">
+        </form>
+      </section>
+      <section class="prenota-img-section">
+        <img  class="prenota-img" src="../images/ordina.png" alt="">
+      </section>
+    </div>
   </main>
   <footer>
     <ul>
@@ -83,8 +88,8 @@
     </ul>
     <div class="orari-footer">
       <li><a>I nostri orari di apertura:</a></li>
-      <li><a>Dal martedì al giovedì dalle ore 18.00 alle ore 22.00</a></li>
-      <li><a>Dal venerdì al sabato dalle ore 17.30 alle ore 22.00</a></li>
+      <li><a>Dal martedì al venerdì dalle ore 18.00 alle ore 22.00</a></li>
+      <li><a>Il sabato e la domenica dalle ore 17.30 alle ore 22.00</a></li>
       <li><a>Chiuso il lunedì.</a></li>
     </div>
     <div class="footer-sm">

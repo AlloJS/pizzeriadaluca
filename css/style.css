@@ -797,9 +797,8 @@ footer p {
 
 /*CONTATTI*/
 
-.img-mappa {
+.img-mappa{
     width: 100%;
-
 }
 
 .contatti-box-posizione {
@@ -881,6 +880,67 @@ footer p {
 .image-container1 {
     text-align: center;
     margin: 10px;
+}
+
+.google-maps{
+    display: none;
+}
+
+@media only screen and (min-width: 1000px) {
+    .img-mappa{
+        display: none;
+    }
+
+    .google-maps {
+        display: initial;
+        overflow: hidden;
+        padding-top: 56.25%;
+        position: relative;
+      }
+
+      .google-maps-4x3 {
+        padding-top: 75%;
+      }
+
+      iframe{
+        border: 0;
+        height: 450px;
+        left: 0;
+        top: 0;
+        width: 100%;
+      }
+
+      .contatti-box-posizione {
+        height: 520px;
+        background-color: white;
+    }
+
+    .contatti-box-posizione h2 {
+        font-family: Catamaran;
+        font-size: 36px;
+        font-weight: 900;
+    }
+
+    .contatti-box-posizione p {
+        margin-top: 30px;
+        line-height: 30px;
+        font-size: 20px;
+    }
+
+    .pw-box {
+        background-color: white;
+        margin-top: 140px;
+    }
+
+    .pw-box h3 {
+        font-family: Catamaran;
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    #pw-box-position{
+        display: none !important;
+    }
 }
 
 /*ABOUT*/
@@ -1014,4 +1074,27 @@ form input {
     background-color: white;
     border: 1px solid #111;
 
+}
+
+.prenota-img {
+    display: none;
+}
+
+@media only screen and (min-width: 1000px) {
+    .prenota-img{
+        display: initial;
+        width: 50%;
+        float: right;
+        border-radius: 10px;
+        margin-top: 130px;
+    }
+
+    .prenota-form-section{
+        height: auto;
+        width: calc(50% - 30px) !important;
+        float: left;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        background-color: white;
+    }
 }

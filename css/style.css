@@ -797,7 +797,7 @@ footer p {
 
 /*CONTATTI*/
 
-.img-mappa{
+.img-mappa {
     width: 100%;
 }
 
@@ -882,12 +882,12 @@ footer p {
     margin: 10px;
 }
 
-.google-maps{
+.google-maps {
     display: none;
 }
 
 @media only screen and (min-width: 1000px) {
-    .img-mappa{
+    .img-mappa {
         display: none;
     }
 
@@ -896,21 +896,21 @@ footer p {
         overflow: hidden;
         padding-top: 56.25%;
         position: relative;
-      }
+    }
 
-      .google-maps-4x3 {
+    .google-maps-4x3 {
         padding-top: 75%;
-      }
+    }
 
-      iframe{
+    iframe {
         border: 0;
         height: 450px;
         left: 0;
         top: 0;
         width: 100%;
-      }
+    }
 
-      .contatti-box-posizione {
+    .contatti-box-posizione {
         height: 520px;
         background-color: white;
     }
@@ -938,7 +938,7 @@ footer p {
         font-weight: 600;
     }
 
-    #pw-box-position{
+    #pw-box-position {
         display: none !important;
     }
 }
@@ -950,6 +950,7 @@ footer p {
     width: calc(100%-16px);
     margin: 10px 8px;
     padding: 10px;
+    margin-top: 30px;
 }
 
 .about-box P {
@@ -971,10 +972,54 @@ footer p {
     text-transform: uppercase;
 }
 
-.banner-about {
+.about-banner {
     width: 100%;
-    height: auto;
+    height: 500px;
+    background-image: url(../images/personale.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /*position: relative;*/
+    display: table;
 }
+
+.about-banner h2 {
+    font-family: Catamaran;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    font-weight: 900;
+    text-shadow: 2px 2px 8px #111;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 1000px) {
+    .about-banner {
+        height: 750px !important;
+    }
+
+    .about-banner h2 {
+        display: block;
+        width: 600px;
+        text-align: center;
+        font-size: 90px;
+        margin: 0 auto;
+    }
+
+    .about-box {
+        background-color: white;
+    }
+
+    .about-box p {
+        margin-top: 50px;
+        font-size: 22px;
+        line-height: 40px;
+
+    }
+}
+
+
 
 /*PRENOTA*/
 
@@ -1081,7 +1126,7 @@ form input {
 }
 
 @media only screen and (min-width: 1000px) {
-    .prenota-img{
+    .prenota-img {
         display: initial;
         width: 50%;
         float: right;
@@ -1089,7 +1134,7 @@ form input {
         margin-top: 130px;
     }
 
-    .prenota-form-section{
+    .prenota-form-section {
         height: auto;
         width: calc(50% - 30px) !important;
         float: left;

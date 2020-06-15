@@ -24,6 +24,6 @@ function deleteChild() {
 }
 
 
-function magicTrick() {
+function addRows() {
     addSelectHTML();
 }
